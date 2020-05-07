@@ -2,7 +2,7 @@
 import os
 
 lstIgnore = ['.vscode','.svn','.github','__pycache__','app','doc','pth','wsgi','templates','static','rundata','log','tmp','temp','dist','build']
-lstIgnore.extend(['AdminLTE','aadmin','ahome','test'])
+lstIgnore.extend(['AdminLTE','test'])
 
 def ignorepath(path):
     lst1 = path.split('\\')
@@ -30,7 +30,7 @@ def save2pth(pathfilename,data):
 
 if __name__ == "__main__":
 
-    appname = "imhe"
+    appname = "momo"
     appname_len = len(appname)
 
     path1 = getRootPath()
