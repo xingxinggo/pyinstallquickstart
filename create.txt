@@ -1,0 +1,26 @@
+virtualenv --no-site-packages app
+
+python -m pip install  --upgrade pip
+
+生成requirements.txt文件
+python -m pip freeze > requirements.txt
+
+安装requirements.txt依赖
+python -m pip install -r requirements.txt
+
+
+
+
+python -m pip install --proxy="user:password@server:port"
+python -m pip install --proxy="127.0.0.1:1080"
+
+copy pth to app\Lib\site-packages
+
+pythonnet for 4.0
+https://sourceforge.net/p/pythonnet/bugs/18/
+
+Python （提供者Microsoft）
+Visual Studio IntelliCode （提供者Microsoft）
+
+win64
+conda install -c conda-forge shapely
