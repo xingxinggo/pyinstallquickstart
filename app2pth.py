@@ -2,7 +2,7 @@
 import os
 
 lstIgnore = ['.vscode','__pycache__','.svn','apache','app','doc','pth','wsgi','templates','static','rundata','log','tmp','temp','dist','build','exception']
-lstIgnore.extend(['AdminLTE','aadmin','ahome','test']) 
+lstIgnore.extend(['AdminLTE','test']) 
 
 def ignorepath(path):
     lst1 = path.split('\\')
