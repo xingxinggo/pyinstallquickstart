@@ -6,6 +6,7 @@
   預設project name momo
 
   act.bat   啟動虛擬環境
+  
   app2exe.py  建立編譯的bat 檔
 
   app2pth     建立參考的路徑檔
